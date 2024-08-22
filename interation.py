@@ -1,6 +1,6 @@
-from lista import Lista
+from list import List
 
-lista = Lista()
+lista = List()
 
 while True:
     print('')
