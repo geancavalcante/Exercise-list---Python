@@ -8,11 +8,11 @@ class List():
         exercise  = str(input('Digite a matéria e a Página:'))
         self.lista.append(exercise)
         print('')
-        print(f"'{exercise}', adiconada com sucesso!")
+        print(f"'{exercise}', adicionada com sucesso!")
 
 
     def remove_in_list(self):
-            exercise_remove = input('Qual tarefa quer remover?')
+            exercise_remove = input('Qual tarefa deseja remover?')
             try:
                 self.lista.remove(exercise_remove)
                 print(f"'{exercise_remove}', Exercício removido com suscesso!")
